@@ -3,7 +3,7 @@ SQL Server Customer &amp; Order Analysis project using JOINs, aggregations, date
 
 SQL Server – Customer & Order Analysis
 
-A SQL Server project focused on analyzing customer and order data using practical SQL queries and business scenarios.
+A SQL Server project focused on analyzing customer and order data using practical SQL queries and business scenarios
 
 Dataset
 
