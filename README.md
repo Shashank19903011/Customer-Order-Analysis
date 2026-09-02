@@ -1,74 +1,68 @@
-# Customer-Order-Analysis
-SQL Server Customer &amp; Order Analysis project using JOINs, aggregations, date functions, CASE statements, and CTEs to analyze customer and sales data
+# SQL Server Customer & Order Analysis
 
-SQL Server – Customer & Order Analysis
+> SQL Server project focused on analyzing customer and sales data using JOINs, aggregations, date functions, CASE statements, and CTEs.
 
-A SQL Server project focused on analyzing customer and order data using practical SQL queries and business scenarios
+---
 
-Dataset
+## 📊 Dataset
 
-100 Customers
+| Table | Records | Description |
+|---|---:|---|
+| Customers | 100 | Customer details |
+| Orders | 300 | Customer order details |
+| **Total** | **400** | Combined records |
 
-300 Orders
+**Relationship:** `Customers.CustomerID = Orders.CustomerID`
 
-400 Total Records
+---
 
-Customer and Order tables connected using CustomerID
+## 🛠️ SQL Concepts Used
 
-SQL Concepts Used
+- `INNER JOIN`
+- `LEFT JOIN`
+- `WHERE`
+- `GROUP BY`
+- `HAVING`
+- `CASE`
+- `SUM()`, `COUNT()`, `AVG()`, `MIN()`, `MAX()`
+- `YEAR()`, `MONTH()`, `DAY()`
+- `DATEPART()`, `DATENAME()`
+- `DATEDIFF()`, `DATEADD()`
+- `EOMONTH()`
+- `COALESCE()`, `ISNULL()`
+- Common Table Expressions (CTEs)
 
-INNER JOIN
+---
 
-LEFT JOIN
+## 📈 Project Analysis
 
-WHERE
+- Customer order analysis
+- Total and average sales
+- Sales by year, month, and quarter
+- Orders by weekday
+- Delivery time analysis
+- Customer sales performance
+- First and latest order analysis
+- Customers with no orders
+- Year-wise and month-wise sales analysis
+- Delivery performance classification
 
-GROUP BY
+---
 
-HAVING
+## 💻 Tools Used
 
-CASE statements
+- **Microsoft SQL Server**
+- **SQL Server Management Studio (SSMS)**
 
-Aggregate Functions: SUM(), COUNT(), AVG(), MIN(), MAX()
+---
 
-Date & Time Functions: YEAR(), MONTH(), DAY(), DATEPART(), DATENAME(), DATEDIFF(), DATEADD(), EOMONTH()
+## 📂 Project Files
 
-NULL Handling: COALESCE(), ISNULL()
+- `SQL_Joins_DateTime_400_Records.sql` — Database creation and sample data
+- `SQL_50_Questions.sql` — SQL analysis queries
 
-CTEs
+---
 
-Project Analysis
+## 🎯 Objective
 
-Customer order analysis
-
-Total and average sales
-
-Orders by year, month, quarter, and weekday
-
-Delivery time analysis
-
-Customer sales performance
-
-Latest and first order analysis
-
-Customers with no orders
-
-Year-wise and month-wise sales analysis
-
-Delivery performance classification
-
-Tools
-
-Microsoft SQL Server
-
-SQL Server Management Studio (SSMS)
-
-Files
-
-SQL_Joins_DateTime_400_Records.sql – Database and sample data
-
-SQL_50_Questions.sql – SQL analysis queries
-
-Objective
-
-To analyze customer and sales data using SQL Server and demonstrate practical data analysis skills including joins, aggregation, filtering, date analysis, NULL handling, and business logic.
+To analyze customer and sales data using SQL Server and demonstrate practical skills in data analysis, JOINs, aggregation, filtering, date analysis, NULL handling, and business logic.
